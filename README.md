@@ -15,8 +15,11 @@
 `docker-compose up -d` ，然后访问浏览器 `http://localhost` 即可访问主应用
 
 通过`http://localhost/sub-a`经过主应用代理来访问子应用a
+
 通过`http://localhost/sub-b`经过主应用代理来访问子应用b
+
 通过`http://localhost:81/sub-a`直接访问子应用a
+
 通过`http://localhost:82/sub-b`直接访问子应用b
 
 # 注意事项
