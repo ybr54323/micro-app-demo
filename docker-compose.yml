@@ -1,0 +1,15 @@
+# yaml 配置
+version: '3'
+services:
+  main:
+    build: ./main
+    ports:
+      - "80:80"
+  sub-a:
+    build: ./sub-a
+    ports:
+      - "81:80"
+  sub-b:
+    build: ./sub-b
+    ports:
+      - "82:80"
